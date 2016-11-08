@@ -1,0 +1,189 @@
+
+
+
+/*----- Header Section -----*/
+header{
+  background:url('../img/plane.jpg') fixed center no-repeat;
+	height:100vh;
+	width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+
+.valign{
+    height:100%;
+    width:100%;
+    display:table;
+}
+
+.valign-in{
+    vertical-align:middle;
+    height:100%;
+    display:table-cell;
+}
+
+
+
+/******************************* CONTACT FORM -  for blog and contact page  *******************************/
+#contactForm h2 {
+  margin-top:40px;
+}
+form#contact_form {
+  margin:0 auto;
+  padding:40px;
+  background-color:rgba(217, 217, 217, 0.1);
+  width:360px;
+  color:white;
+}
+form#contact_form .name {
+  margin-bottom: 10px;
+}
+form#contact_form .email {
+  margin-bottom: 10px;
+}
+form#contact_form p {
+
+  text-align: center;
+}
+form#contact_form .message {
+
+}
+div#loader {
+
+  margin-top: 15px;
+}
+form#contact_form input[type="text"] {
+  border-bottom: 1px solid #e1e5e9;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  height: 30px;
+  padding:0;
+  width: 100%;
+  background-color: transparent;
+}
+form#contact_form input#email {
+  border-bottom: 1px solid #e1e5e9;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  width: 100%;
+  height: 30px;
+  padding:0;
+  background-color: transparent;
+
+}
+form#contact_form textarea {
+  border: 1px solid #e1e5e9;
+
+
+}
+form#contact_form label {
+
+  font-size: 12px;
+  font-weight:bold;
+  color: #414550;
+  text-transform: uppercase;
+}
+form#contact_form label span {
+  color: #414550;
+}
+form#contact_form textarea{
+  background-color: transparent !important;
+    width: 100%;
+}
+
+
+form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]:hover, form#contact_form textarea:focus, form#contact_form textarea:hover, form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]:hover, form#contact_form textarea:focus, form#contact_form textarea:hover {
+
+}
+form#contact_form input[type="submit"] {
+  width:60%;
+  margin:0 auto;
+  background: transparent;
+  border:1px solid gray;
+  padding:5px;
+  font-size:12px;
+
+  border-radius:4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius:4px;
+
+  text-transform:uppercase;
+  color:white;
+
+  -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+form#contact_form input[type="submit"]:hover {
+   -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease;
+  background: rgba(248, 250, 251, 0.6);
+  color:#333;
+}
+
+
+.contact-nav {
+  padding-top: 15px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  position: absolute;
+}
+
+
+.contact-menu{
+  position: absolute; 
+  left: 50%;
+  bottom:12%;
+  z-index:9999;
+}
+
+.contact-menu-sub{
+  position: relative; 
+  left: -50%;
+}
+
+  /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+            
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }	
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .logo-w{width: 30px !important; height:30px !important;}
+      form#contact_form {width: 100% !important;background-color: transparent !important;}
+      .contact-menu{bottom:4% !important;}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
+
+
+
+
+

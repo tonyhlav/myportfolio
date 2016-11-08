@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="164.269px" height="199.218px" viewBox="0 0 164.269 199.218" enable-background="new 0 0 164.269 199.218"
+	 xml:space="preserve">
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="80.826,143.152 79.267,142.255 5.042,79.718 70.933,79.718 
+	70.933,85.718 75.933,85.687 75.933,81.718 84.13,81.718 84.214,85.781 88.808,85.875 88.792,79.718 160.055,79.718 "/>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="3.677" y="13.252" width="157.969" height="64.966">
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="3.677" y="13.252" width="157.969" height="64.966" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+	</g>
+</mask>
+<polygon mask="url(#SVGID_1_)" fill="none" stroke="#999999" stroke-miterlimit="10" points="160.212,77.433 88.646,77.303 
+	88.652,70.531 83.933,70.496 83.933,75.576 75.933,75.639 75.933,70.452 70.933,70.497 70.933,77.718 5.042,77.718 80.433,13.899 
+	80.433,13.899 "/>
+<g>
+	<path fill="#1E1E1E" d="M5.042,72.821"/>
+	<path fill="none" stroke="#999999" stroke-miterlimit="10" d="M5.042,72.821"/>
+</g>
+<path fill="#1E1E1E" stroke="#999999" stroke-miterlimit="10" d="M159.933,72.821"/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="76.767,13.218 5.584,74.278 14.518,15.714 34.576,0.552 "/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="84.266,13.218 159.65,74.278 150.716,15.714 128.731,0.552 
+	"/>
+<path fill="#1E1E1E" stroke="#999999" stroke-width="2" stroke-miterlimit="10" d="M80.433,143.218"/>
+<path fill="#1E1E1E" stroke="#999999" stroke-width="2" stroke-miterlimit="10" d="M80.433,12.218"/>
+<path fill="#1E1E1E" stroke="#999999" stroke-miterlimit="10" d="M20.151,126.18"/>
+<path fill="#1E1E1E" stroke="#999999" stroke-miterlimit="10" d="M77.599,142.218"/>
+<path fill="#1E1E1E" stroke="#999999" stroke-miterlimit="10" d="M47.773,153.569"/>
+<path fill="#1E1E1E" stroke="#999999" stroke-miterlimit="10" d="M20.151,127.18"/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="76.634,142.412 21.151,127.054 4.669,81.721 "/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="48.875,155.569 20.633,128.906 76.634,143.971 "/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="0.523,192.894 19.73,130.864 47.1,156.614 7.455,197.718 
+	2.012,197.718 "/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="85.433,142.412 143.118,127.054 159.599,81.721 "/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="116.393,154.569 143.599,128.884 85.433,144.01 "/>
+<polygon fill="none" stroke="#999999" stroke-miterlimit="10" points="163.746,193.894 144.539,130.864 118.041,155.799 
+	156.814,198.718 162.256,198.718 "/>
+</svg>

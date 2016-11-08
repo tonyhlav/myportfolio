@@ -1,0 +1,78 @@
+body{border-top:none !important;}
+
+
+.visia-nav{
+  padding-top:4px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  background-color: #f9f9f9;
+}
+
+
+.visia-header {
+  color: #f9f9f9;
+  border-bottom: 2px solid rgba(143, 143, 143, 0.78);
+  border-top: 2px solid rgba(143, 143, 143, 0.78);
+  padding: 20px;
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+  background: url('../img/visia-texture.png') fixed repeat;
+}
+
+.visia-about{
+
+  padding-top:30px;
+}
+
+.visia-about h4{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.visia-about p{
+  font-size: 16px;
+}
+
+
+.visia-launch{
+  border-radius:1px;
+  margin-top: 15px;
+}
+
+
+.visia-cont{
+  padding-left:150px;
+  padding-right:150px;
+}
+
+  /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      .visia-header{height: auto !important;}
+      .visia-cont{padding-left:0 !important; padding-right: 0 !important;}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    } 
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .bk-mylogo{display:none !important;}
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }

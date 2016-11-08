@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+
+
+    <meta charset="utf-8">
+    <title>Antonio Stojceski - Web Designer & Front-End Developer</title>
+    <meta name="description" content="This is Description">
+    <meta name="author" content="Antonio Stojceski">
+
+    <!-- Custom styles for this template -->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,500,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+<body>
+
+
+
+<header>
+    <div class="overlay-def">
+
+        <!-- Logo -->
+        <div class="logo">
+            <div>
+                <img class="img-responsive mar-center" src="img/logo-4.svg" alt="Antonio Stojceski Logo">
+            </div>
+        </div>
+        <!-- /Logo -->
+
+        <!-- Wellcome Text -->
+        <div class="text-center">
+            <div>
+                <h1 class="headline">Hi, My name is <span class="green">Antonio Stojceski</span></h1>
+                <h4 class="sub-headline">Web Designer & Front-End Developer</h4>
+                <!-- Social Buttons -->
+                <ul class="list-inline list-mar">
+                    <li><a class="social-header" href="#"><img src="img/behance-2.svg" alt="Behance"></a></li>
+                    <li><a class="social-header" href="#"><img src="img/twitter-2.svg" alt="Twitter"></a></li>
+                    <li><a class="social-header" href="#"><img src="img/linked-2.svg" alt="Linked In"></a></li>
+                </ul>
+                <!-- /Social Buttons -->
+            </div>
+        </div>
+        <!-- /Wellcome Text -->
+
+        <!-- Navigation Menu -->
+        <div class="center1">
+            <div class="center2">
+                <div id="showmenu"><a href="#"><div id="nav-icon3"><span></span><span></span><span></span><span></span></div></a></div>
+            </div>
+        </div>
+
+        <div class="menu" style="display: none;">
+            <ul style="margin-bottom: 0;" class="list-inline menu-n">
+                <li><a class="animsition-link animated fadeInUp" href="index.html">Wellcome</a></li>
+                <li><a class="animsition-link animated fadeInUp" href="work.html">Work</a></li>
+                <li><a class="animsition-link animated fadeInUp" href="skills.html">Skills</a></li>
+                <li><a class="animsition-link animated fadeInUp" href="about.html">About</a></li>
+                <li><a class="animsition-link animated fadeInUp" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- /Navigation Menu -->
+
+    </div>
+</header>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+          $(window).resize(function()
+          {
+            $('.text-center').css(
+            {
+              position: 'absolute'
+            });
+
+            $('.text-center').css(
+            {
+              left: ($(window).width() - $('.text-center').outerWidth()) / 2,
+              top: ($(window).height() - $('.text-center').outerHeight()) / 2
+            });
+          });
+
+          // call `resize` to center elements
+          $(window).resize();
+        });
+    </script>
+
+    <script>
+    $(document).ready(function() {
+        $('#showmenu').click(function() {
+                $('.menu').slideToggle("fast");
+        });
+    });
+
+    </script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+            $(this).toggleClass('open');
+        });
+    });
+    </script>
+
+
+<!-- animsition js -->
+    <script src="js/animsition.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".animsition").animsition({
+        inClass:'fade-in',
+        outClass:'fade-out',
+      });
+    });
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
