@@ -14,31 +14,16 @@ header{
 }
 
 
-
-.valign{
-    height:100%;
-    width:100%;
-    display:table;
-}
-
-.valign-in{
-    vertical-align:middle;
-    height:100%;
-    display:table-cell;
-}
-
-
-
 /******************************* CONTACT FORM -  for blog and contact page  *******************************/
 #contactForm h2 {
   margin-top:40px;
 }
 form#contact_form {
   margin:0 auto;
-  padding:40px;
+  padding:60px;
   background-color:rgba(217, 217, 217, 0.1);
-  width:360px;
-  color:white;
+  color:#fff;
+  text-align: center;
 }
 form#contact_form .name {
   margin-bottom: 10px;
@@ -62,10 +47,19 @@ form#contact_form input[type="text"] {
   border-left: transparent;
   border-right: transparent;
   border-top: transparent;
-  height: 30px;
+  height: 50px;
   padding:0;
   width: 100%;
   background-color: transparent;
+  transition:all 0.3s ease-in-out;
+}
+
+form h4{padding-bottom:10px;font-weight: 300;}
+
+form#contact_form input[type="text"]:focus{
+  outline: none !important;
+  border-bottom:1px solid #04b16a;
+  transition:all 0.3s ease-in-out;
 }
 form#contact_form input#email {
   border-bottom: 1px solid #e1e5e9;
@@ -73,15 +67,31 @@ form#contact_form input#email {
   border-right: transparent;
   border-top: transparent;
   width: 100%;
-  height: 30px;
+  height: 50px;
   padding:0;
   background-color: transparent;
-
+    transition:all 0.3s ease-in-out;
+}
+form#contact_form input#email:focus{
+  outline: none !important;
+  border-bottom:1px solid #04b16a;
+  transition:all 0.3s ease-in-out;
 }
 form#contact_form textarea {
   border: 1px solid #e1e5e9;
+  resize: none;
+  height:120px;
+  padding:10px 20px 10px 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  transition:all 0.3s ease-in-out;
+}
 
+form#contact_form textarea:focus{
 
+  outline: none !important;
+  border:1px solid #04b16a;
+  transition:all 0.3s ease-in-out;
 }
 form#contact_form label {
 
@@ -103,16 +113,16 @@ form#contact_form input[type="text"]:focus, form#contact_form input[type="text"]
 
 }
 form#contact_form input[type="submit"] {
-  width:60%;
+
   margin:0 auto;
   background: transparent;
   border:1px solid gray;
-  padding:5px;
+  padding:12px 32px 12px 32px;
   font-size:12px;
 
-  border-radius:4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius:4px;
+  border-radius:2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius:2px;
 
   text-transform:uppercase;
   color:white;
@@ -132,28 +142,6 @@ form#contact_form input[type="submit"]:hover {
 }
 
 
-.contact-nav {
-  padding-top: 15px;
-  text-align: center;
-  width: 100%;
-  height: 40px;
-  top: 0;
-  position: absolute;
-}
-
-
-.contact-menu{
-  position: absolute; 
-  left: 50%;
-  bottom:12%;
-  z-index:9999;
-}
-
-.contact-menu-sub{
-  position: relative; 
-  left: -50%;
-}
-
   /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
@@ -163,27 +151,23 @@ form#contact_form input[type="submit"]:hover {
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-            
+
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
 
-    }	
+    }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
-      .logo-w{width: 30px !important; height:30px !important;}
+
       form#contact_form {width: 100% !important;background-color: transparent !important;}
       .contact-menu{bottom:4% !important;}
+      form#contact_form{padding:10px;}
     }
 
-    /* Custom, iPhone Retina */ 
+    /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
-
+      form h4{display: none;}
     }
-
-
-
-
-

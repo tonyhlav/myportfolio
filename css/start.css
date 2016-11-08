@@ -81,6 +81,7 @@ header{
 .green{
   color:#04b16a;
   font-weight: 300;
+  white-space: nowrap;
 }
 
 
@@ -738,6 +739,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .menu ul li a{
   color:#f9f9f9;
   text-decoration: none;
+  display: block;
+  height: 100%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -820,7 +823,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 #nav-icon8 span {
   display: block;
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 100%;
   background: #000;
   border-radius: 1px;
@@ -1104,12 +1107,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
-    	.headline{font-size:2.8em;line-height: 50px;}
+    	.headline{font-size:24px;line-height: 30px;}
+              .sub-headline{  font-size: 14px;letter-spacing: 1px;}
       .fake-cont{padding:auto !important;font-size:18px !important;}
     }
 
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
-        .headline{font-size:1.6em;line-height: 40px;}
-        .sub-headline{  font-size: 1.2em;}
+
     }
